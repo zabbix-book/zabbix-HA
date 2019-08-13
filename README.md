@@ -7,10 +7,11 @@ Zabbix Server HA 使用keepalived构建Zabbix-Server的HA功能，作为《Zabbi
 - pidof  arping 命令存在 
 - root用户执行以下操作
 
-IP地址          角色 机器
-192.168.0.3  MASTER  NODE1
-192.168.0.4  BACKUP  NODE2
-192.168.0.5  VIP
+IP地址|角色|机器名
+-|-|-
+192.168.0.3|  MASTER|  NODE1
+192.168.0.4|  BACKUP|  NODE2
+192.168.0.5 | VIP| 存在于MASTER机器之上
 
 # 2.安装keepalived
 分别在主机MASTER和BACKUP安装keepalived
