@@ -16,7 +16,7 @@ IP地址          角色 机器
 分别在主机MASTER和BACKUP安装keepalived
 ```
 yum install -y keepalived
-systemctl keepavlied enable
+systemctl keepalived enable
 ```
 
 #  3. 配置MASTER
