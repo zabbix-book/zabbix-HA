@@ -27,7 +27,7 @@ vrrp_instance VI_1 {
     smtp_alert
 
     authentication {
-        auth_typeASS
+        auth_type PASS
         auth_pass ZABBIX_HA_ZBX_BOOK
     }
 
